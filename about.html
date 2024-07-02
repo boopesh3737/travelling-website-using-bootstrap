@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>About</title>
+<style>
+/* About Section Start */
+.about{
+    padding: 50px 8% 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img img{
+    max-width: 530px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.about-text h3{
+    color: #388b6f;
+    font-size: 30px;
+    line-height: 1;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+    margin-top: 10px;
+}
+#about-btn{
+    width: 150px;
+    height: 35px;
+    background: white;
+    border: 2px solid #388b6f;
+    color: #388b6f;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background: #388b6f;
+    color: white;
+}
+@media (max-width:920px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+.submit{
+    display: inline-block;
+    font-size: 15px;
+    background: #388b6f;
+    color: white;
+    width: 160px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration:none;
+    border-radius:10px;
+    padding: 1% 1%;
+}
+.submit:hover{
+    width: 175px;
+}
+
+
+/* About Section End */
+</style>
+</head>
+</html>
+
+<body bgcolor="lightgray">
+ <!-- About Section Start -->
+
+<center><h1 style="color:darkgreen;"> About Us</h1></center> 
+    <section class="about" id="about">
+       
+        <div class="about-text">
+            <h3>Know service About us</h3>
+            <p>This site highlights the thoughts, work and words of Stephen W. Brock.
+
+That’s Steve Brock to my friends.</p>
+
+<p>In particular, I focus here on the Art of Meaningful Experiences especially around the intersection
+ of travel and creativity along with thoughts on the world of branding and the reality of perception.</p>
+
+   
+    Marketing, HR, Finance, Administration, ICT (Information and Communication Technology
+    <p>Retail Showroom (merchandising & inventory, service environment, facilities management (hard FM), CRM, billing & payment, service, delivery)
+</p>
+            <button id="about-btn">Read More...</button>
+        </div>        
+
+
+ <div class="about-img">
+        <video width="550" height="400" controls loop autoplay muted>
+        <source src="about-img1.mp4" type="video/mp4">
+        </video>
+        </div>
+    </section>
+    <!-- About Section End -->
+<center><a href="code.html" class="submit">GO BACK</a></center>
+
+</body>
+</html>
+
+
